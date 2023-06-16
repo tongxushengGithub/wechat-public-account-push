@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '我的朋友',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'gh_e9b74d02af6c',
+      id: 'orAR96N8CvKd1Ira0HhU7Lk7OOsA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'Y4i1Z5IVCS6JpybOvooiEqYG6U8-4G9Oaq85DQvnKq4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -35,9 +35,9 @@ const USER_CONFIG = {
         {
           type: '生日', name: '李四', year: '1996', date: '09-31',
         },
-       //{
-         // type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-       //},
+        {
+          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+        },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
