@@ -8,22 +8,22 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx282c8f3a4ee31895',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '072aecc4e441770f527b8449e902a558',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '陕西',
+  CITY: '西安',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '我的朋友',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: '072aecc4e441770f527b8449e902a558',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'Y4i1Z5IVCS6JpybOvooiEqYG6U8-4G9Oaq85DQvnKq4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -35,9 +35,9 @@ const USER_CONFIG = {
         {
           type: '生日', name: '李四', year: '1996', date: '09-31',
         },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-        },
+       //{
+         // type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+       //},
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
@@ -51,13 +51,13 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'Y4i1Z5IVCS6JpybOvooiEqYG6U8-4G9Oaq85DQvnKq4',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'gh_e9b74d02af6c',
     }
   ],
 
